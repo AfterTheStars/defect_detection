@@ -1,0 +1,13 @@
+serviceboot:
+  python_version: 3.8.10
+  cname: 太阳能电池板缺陷检测(VIT)
+  ename: hf_cv_solar_panel_defect_detection
+  version: 1.0.0
+  port:
+    dev: 3330
+    prod: 80   # default: 80
+  has_web: no  # default: no
+  use_python_frontend: yes  # default: no
+  python_frontend_port: 7860
+  compile_python: no  # default: no
+  process_num: 1  # default: 1. 值为0时进程数等于当前主机CPU核数
